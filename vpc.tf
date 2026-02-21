@@ -1,4 +1,4 @@
-module "network" {
+module "vpc" {
   source               = "app.terraform.io/yohanan/vpc/aws"
   version              = "1.0.0"
   cidr                 = "10.0.0.0/16"
